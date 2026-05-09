@@ -25,3 +25,23 @@ And they can be called in a function way or self closing html
 ```
 <Name />
 ```
+# React Props Guide
+
+## What Are Props?
+
+Props (short for **properties**) are used to pass data from one React component to another.
+
+Think of props like function arguments.
+
+---
+
+# Basic Example
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello {props.name}</h1>;
+}
+
+export default function App() {
+  return <Welcome name="Gideon" />;
+}
