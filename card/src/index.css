@@ -1,0 +1,20 @@
+.card{
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(74, 71, 71);
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+}
+
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: cursive;
+}
